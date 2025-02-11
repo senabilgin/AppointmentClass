@@ -14,6 +14,6 @@ public class Appointment {
             schedule[period - 1, startMinute + i] = true;
         }
     }
-
+int i = 0;
     
 }
