@@ -15,4 +15,21 @@ public class Appointment {
         }
     }
     
+
+    //partb Senanur Bilgin 
+    //find and reserve the earliest avalible block within range of periods
+
+    public bool MakeAppointment(int startPeriod, int endPeriod, int duration) 
+    {
+        for (int period = startPeriod; period <= endPeriod; period++)
+        {
+            int startMinute = FindFreeBlock(period, duration);
+            if (startMinute != -1)
+            {
+                ReserveBlock(period, startMinute, duration);
+                return true;
+            }
+        }
+        return false;
+    }
 }

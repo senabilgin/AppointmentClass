@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GWCerwoE5GU=",
+  "dgSpecHash": "FlnmG7ACZGY=",
   "success": true,
-  "projectFilePath": "/Users/senanurbilgin/Desktop/AppointmentClass/AppointmentClass/AppointmentClass.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/senanurbilgin/Desktop/csc350h/AppointmentClass/AppointmentClass/AppointmentClass.csproj",
+  "expectedPackageFiles": [
+    "/Users/senanurbilgin/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/senanurbilgin/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/senanurbilgin/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
