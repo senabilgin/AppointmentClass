@@ -14,7 +14,25 @@ public class Appointment {
             schedule[period - 1, startMinute + i] = true;
         }
     }
-    
+
+
+    // Part (a): Jannatul Naima
+ // Find the earliest free block of given duration in a period
+    public int FindFreeBlock(int period, int duration) {
+        for (int startMinute = 0; startMinute <= 60 - duration; startMinute++) {
+            bool found = true;
+            for (int i = 0; i < duration; i++) {
+                if (!IsMinuteFree(period, startMinute + i)) {
+                    found = false;
+                    break;
+                }
+            }
+            if (found) {
+                return startMinute;
+            }
+        }
+        return -1;
+    }
 
     //partb Senanur Bilgin 
     //find and reserve the earliest avalible block within range of periods
